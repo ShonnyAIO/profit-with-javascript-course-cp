@@ -1,0 +1,81 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-pick-color,
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+  background-image: url("https://image.freepik.com/vector-gratis/fondo-mesa-poker-color-verde_47243-1094.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/*
+.flex-blackjack-row-2 button{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+  border: 1px solid black;
+  padding: 10px;
+}
+*/
+
+table, th, td{
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.flex-blackjack-row-1 div{
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.flex-box-container-1 div {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  align-items: center;
+}
+
+.flex-box-container-2 img {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}

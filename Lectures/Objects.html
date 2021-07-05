@@ -1,0 +1,69 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+    class User{
+        constructor(firstName, lastName, userHobbies){
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.userHobbies = userHobbies;
+        }
+        getFullName = () => {
+            return `${this.firstName} ${this.lastName}`;
+        }
+    }
+
+    class adminUser extends User{
+        setPassword = (password) => {
+            this.password = password;
+        }
+    }
+
+    let John = new User("John", "Davis", ["soccer", "volleyball"]);
+    let Nazary = new adminUser("Nazary", "Dumansky", ["dancing"]);
+    console.log("Nazary: ", Nazary);
+
+/*     let user = {
+        firstName: "John",
+        lastName: "Doe",
+        setPassword: (user, password) => {
+            user.password = password;
+        },
+        "user Hobbies": [
+            "soccer",
+            "volleyball"
+        ],
+        getFullName: (user) => {
+            return `${user.firstName} ${user.lastName}`;
+        },
+    } */
+
+/*     if("firstName" in user){
+        console.log("First name exits");
+    }
+
+    if("randomeAttr" in user){
+        console.log("First name exits");
+    }else{
+        console.log("randomAttr does not exits");    
+    } */
+
+/*     for(let prop in user){
+        console.log(user[prop]);
+    } */
+
+
+/*     console.log(user);
+    console.log(user.getFullName(user));
+    console.log(user.firstName);
+    console.log(user["lastName"]);
+    console.log(user["user Hobbies"]); */
+</script>
+</body>

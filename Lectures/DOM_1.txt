@@ -1,0 +1,7 @@
+elem.append(): Add nodes to the end of the nodes
+elem.prepend(): Add nodes to the beginning of the nodes
+elem.innerHTML: Change the HTML of a node
+elem.className: Get/Set class attribute of a node
+elem.classList: Get/Set classes as a list of a node .add/remove(), .toggle(), .contains()
+document.getElementByClassName('list-group')[0].children
+document.getElementByClassName('list-group')[0].children[0].innerHTML = '<b>12</b>';

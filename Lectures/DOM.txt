@@ -1,0 +1,28 @@
+Document Object Model
+Structure of any website
+Contains
+    Element
+    Properties
+    Events
+
+Properties / Events
+Allows Javascript:
+    to access the view
+    understand the view
+    to modify the view
+
+Accessing the DOM
+Children
+    Contains children elements
+ChildsNodes
+    Contains children Nodes
+FirstChild
+LastChild
+    .innterHTML
+    .innterText
+
+Searching the DOM
+document.getElementById(id)
+document.querySelectorAll(css)
+document.getElementsByTagName()
+document.getElementsByClassName()
